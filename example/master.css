@@ -1,0 +1,198 @@
+*{
+  margin:0;
+  padding: 0;
+
+}
+
+body{
+  background-color: #f7f7f7;
+  font-family: Verdana,Arial,sans-serif;
+}
+
+
+
+.header {
+
+height: 70px;
+background-color: #181a19;;
+}
+
+h1{
+  text-decoration: underline;
+  text-transform: uppercase;
+font-size:24px;
+  color:brown;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  line-height: 70px;
+}
+
+
+.nav{
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.search {
+  float: right;
+  margin-right: 40px;
+  padding:5px 10px 0 10px;
+}
+
+
+
+ input {
+   width:200px;
+   height: 20px;
+   margin-right: 10px;
+   position: relative;
+   z-index: 0;
+ }
+
+
+ .queen {
+
+   transform: translate(-30px,25%);
+   z-index: 1;
+   position: absolute;
+   font-size:12px;
+ }
+
+
+.nav li {
+list-style: none;
+float: left;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 8px 17px;
+  border-top: none;
+  border-bottom: none;
+border-left: none;
+transition: 1s;
+}
+
+.nav  a:hover {
+  font-weight: bold;
+  background-color: red;
+  color:white;
+}
+
+
+.nav i {
+  transform: translateX(-10px);
+}
+
+
+.nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.wrapper {
+  background-color:#f7f7f7;
+}
+
+.aside h2 {
+  font-size: 1em;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.aside p {
+  margin-top:20px;
+
+
+}
+
+
+.aside {
+  float:left;
+  width:15%;
+  padding:0 20px 0 20px;
+}
+
+.side {
+  float:right;
+  width: 20%;
+  padding:0 20px 0 10px;
+}
+
+.side h3 {
+  font-size: 1em;
+  margin-top: 15px;
+}
+
+
+.option {
+  text-align: center;
+  margin: 8px;
+}
+
+.side li {
+  border: 1px solid black;
+list-style: none;
+text-align: center;
+opacity: 1s;
+}
+
+.side li a:hover{
+  background-color: red;
+  text-decoration: underline;
+  color:white;
+}
+
+.side a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 8px 17px;
+transition: 1s;
+}
+
+.main {
+  margin-left: 20%;
+  margin-right:20%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 50%;
+  padding:20px;
+}
+
+
+
+.main::after {
+  clear:both;
+  display: table;
+  content: "";
+}
+
+.main h2 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+
+
+.footer {
+  background-color: #181a19;
+  padding: 10px 10px 30px 10px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+
+
+}
+
+
+.footer p {
+color: white;
+transform: translateY(50%);
+}
